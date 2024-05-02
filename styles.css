@@ -1,0 +1,216 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Color de fondo blanco */
+    background-image: linear-gradient(45deg, #C7E9FF 25%, transparent 25%), linear-gradient(-45deg, #C7E9FF 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #C7E9FF 75%), linear-gradient(-45deg, transparent 75%, #C7E9FF 75%);
+    background-size: 20px 20px; /* Tamaño del patrón */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.result-card {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.result-card h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.result-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-card h2 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.result-card p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.result-card p:first-child {
+    font-weight: bold;
+}
+
+#resultTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#resultTable th, #resultTable td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+#resultTable th {
+    background-color: #f2f2f2;
+}
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+/* 
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    background-image: linear-gradient(45deg, #C7E9FF 25%, transparent 25%), linear-gradient(-45deg, #C7E9FF 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #C7E9FF 75%), linear-gradient(-45deg, transparent 75%, #C7E9FF 75%);
+    background-size: 20px 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+/* Nuevos estilos para la tabla */
+table {
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    font-size: 18px; /* Tamaño de fuente más grande */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 15px; /* Espaciado más grande */
+    text-align: left;
+}
+
+tr {
+    background-color: #f2f2f2;
+    color: #000; /* Color de texto más formal */
+    font-weight: bold;
+}
+
+td {
+    color: #666; /* Color de texto más formal */
+}
