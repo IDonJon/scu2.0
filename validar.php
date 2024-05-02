@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 } else {
     // Maneja otros métodos HTTP según sea necesario
-    http_response_code(405); // Método no permitido
+    http_response_code(405); // Método no permitidoasd
     echo 'Método no permitido';
 }
 ?>
